@@ -274,3 +274,5 @@ outside project/
 # Commit the Removal:
 # After running the git rm command, you need to commit the change:
 # git commit -m "Remove previously tracked folder from cache"
+
+qodana.yaml
