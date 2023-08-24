@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     # local apps
     'category.apps.CategoryConfig',
+    'account.apps.AccountConfig',
 ]
 
 MIDDLEWARE = [
@@ -56,6 +57,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'main.urls'
+AUTH_USER_MODEL = 'account.User'
 
 TEMPLATES = [
     {
