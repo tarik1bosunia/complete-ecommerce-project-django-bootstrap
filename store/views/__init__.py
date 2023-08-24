@@ -1,0 +1,1 @@
+from store.views.store import store_page_view
